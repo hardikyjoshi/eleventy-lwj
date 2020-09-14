@@ -1,0 +1,28 @@
+{
+  "name": "myfirsteleventyproject",
+  "version": "1.0.0",
+  "description": "First eleventy project",
+  "main": ".eleventy.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardikyjoshi/eleventy-lwj.git"
+  },
+  "author": "Hardik Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hardikyjoshi/eleventy-lwj/issues"
+  },
+  "homepage": "https://github.com/hardikyjoshi/eleventy-lwj#readme"
+}

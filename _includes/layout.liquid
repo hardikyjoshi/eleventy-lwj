@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <header>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </header>
+    <main>
+      {% if title %}
+      <h1>{{ title }}</h1>
+      {% endif %} {%- if dog %}
+      <img src="{{ dog }}" alt="a good doggo" />
+      {%- endif %}
+      {{ content }}
+    </main>
+  </body>
+</html>
